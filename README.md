@@ -1,9 +1,9 @@
 # Ex No: 04 - Design & Implementation of 6T SRAM Cell Using Cadence EDA Tools
 
-### Aim
+## Aim
 The aim is to design and implement a 6T SRAM (Static Random-Access Memory) cell using Cadence EDA tools and verify its functionality through transient analysis simulation.
 
-### Tools Required
+## Tools Required
 
 ### Cadence EDA Suite
 - **Virtuoso Schematic Editor** (for circuit design)
@@ -15,7 +15,7 @@ The aim is to design and implement a 6T SRAM (Static Random-Access Memory) cell 
 ### Computer System
 - Minimum **4GB RAM** and a **multi-core processor**
 
-### Procedure:
+## Procedure:
 ### 1. Launch Cadence Virtuoso Environment:
    - Open the Cadence Virtuoso tool and set up the working library.
    - Create a new schematic cell view for the 6T SRAM cell design.
@@ -31,32 +31,35 @@ The aim is to design and implement a 6T SRAM (Static Random-Access Memory) cell 
    - Perform transient analysis to verify read and write operations.
    - Set up input stimulus and analyze the output waveform.
 
-### Circuit Diagram
+## Circuit Diagram
 
 ![Screenshot 2025-03-24 122239](https://github.com/user-attachments/assets/c22930fc-f396-4787-807d-51088ad7959e)
 
 
-### 6T SRAM Truth Table
+## 6T SRAM Truth Table
 
 ![Screenshot 2025-03-24 123041](https://github.com/user-attachments/assets/29a8a036-d65d-4a25-ba18-3f1f0e358576)
 
 
-### Schematic Diagram
+## Schematic Diagram
 
-### 1. Schematic of 6T SRAM Cell:
-![Screenshot 2025-03-26 183800](https://github.com/user-attachments/assets/b4fad229-863c-4ca8-987c-f12433892188)
+#### 1. Schematic of 6T SRAM Cell:
 
-
-![image](https://github.com/user-attachments/assets/c28aea2b-9e73-48e6-abdb-11c430321b86)
+ ![4  SRAM](https://github.com/user-attachments/assets/3ec71343-6d8a-486e-881e-829976c2e3dd)
 
 
-### Output
-### 1. Transient Analysis Output:
-![Screenshot 2025-03-28 140707](https://github.com/user-attachments/assets/bc9fcfd0-ffea-4e30-a8eb-e35182791239)
+ ![image](https://github.com/user-attachments/assets/c28aea2b-9e73-48e6-abdb-11c430321b86)
 
-![Screenshot 2025-03-28 140803](https://github.com/user-attachments/assets/1debf797-70d4-430f-96ed-6786bb9cfd0e)
 
-### Results:
+## Output
+#### 1. Transient Analysis Output:
+
+   ![Screenshot 2025-03-24 121615](https://github.com/user-attachments/assets/2805525e-1f0d-4ef8-b131-79a3153b7127)
+
+   ![SRAM](https://github.com/user-attachments/assets/36b7f2f6-83ad-4e9c-a7c3-72bc323edfab)
+
+
+## Results:
 1. Successfully designed the 6T SRAM cell schematic using Cadence EDA tools.
 2. Performed transient analysis, verifying the read and write operations of the SRAM cell.
 3. Observed correct switching behavior in response to control signals.
